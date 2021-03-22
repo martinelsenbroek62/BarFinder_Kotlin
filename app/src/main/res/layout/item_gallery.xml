@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/photo_container"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <com.lemust.ui.screens.details.adapters.RoundedImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1.2"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="4dip" />
+
+        <com.lemust.ui.screens.details.adapters.RoundedImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="4dip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.lemust.ui.screens.details.adapters.RoundedImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="4dip" />
+
+        <com.lemust.ui.screens.details.adapters.RoundedImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1.2"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="4dip" />
+
+
+    </LinearLayout>
+</LinearLayout>

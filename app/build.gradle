@@ -1,0 +1,184 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'io.fabric'
+def versionMajor = 0
+def versionMinor = 7
+def versionPatch = 24
+
+def keystorePropertiesFile = rootProject.file("signing.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    flavorDimensions "app_constants"
+    compileSdkVersion 27
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "com.lemust"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+//        versionCode versionMajor * 10000 + versionMinor * 100 + versionPatch
+        versionCode 11
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+//    sourceSets {
+//        main {
+//            res.srcDirs = [
+//                    'src/main/res/layout/profile',
+//                    'src/main/res'
+//                    , 'src/main/res/drawable/profile']
+//        }
+//    }
+    buildTypes {
+        debug {
+            testCoverageEnabled = false
+            versionNameSuffix ".debug"
+            resValue "string", "app_version",
+                    "${defaultConfig.versionName}${versionNameSuffix}"
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'app_version', "${defaultConfig.versionName}"
+        }
+    }
+//todo
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    signingConfigs {
+        release {
+            storeFile rootProject.file(keystoreProperties['STORE_FILE'])
+            storePassword keystoreProperties['STORE_PASSWORD']
+            keyAlias keystoreProperties['KEY_ALIAS']
+            keyPassword keystoreProperties['KEY_PASSWORD']
+        }
+        debug {
+            storeFile rootProject.file(keystoreProperties['STORE_FILE'])
+            storePassword keystoreProperties['STORE_PASSWORD']
+            keyAlias keystoreProperties['KEY_ALIAS_DEV']
+            keyPassword keystoreProperties['KEY_PASSWORD_DEV']
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            zipAlignEnabled true
+            debuggable false
+            jniDebuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            signingConfig signingConfigs.debug
+            versionNameSuffix ".debug"
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    productFlavors {
+        development {
+            dimension 'app_constants'
+            buildConfigField "String", "API_URL", '\"https://mygoodspot.dev.steel.kiwi/api/\"'
+        }
+        production {
+            dimension 'app_constants'
+            buildConfigField "String", "API_URL", '\"https://le-must.com/api/\"'
+        }
+        staging {
+            dimension 'app_constants'
+            buildConfigField "String", "API_URL", '\"https://mygoodspot.stg.steel.kiwi/api/\"'
+        }
+    }
+
+    packagingOptions {
+        doNotStrip '*/mips/*.so'
+        doNotStrip '*/mips64/*.so'
+    }
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    testImplementation 'junit:junit:4.12'
+    implementation "com.android.support:appcompat-v7:$supportLibraries"
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation "com.android.support:design:$supportLibraries"
+    implementation "com.android.support:support-v4:$supportLibraries"
+    implementation "com.android.support:cardview-v7:$supportLibraries"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit"
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.6'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'androidx.core:core-ktx:0.2'
+    implementation 'id.zelory:compressor:2.1.0'
+
+    implementation 'jp.wasabeef:glide-transformations:3.3.0'
+
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.5'
+
+    implementation 'com.viewpagerindicator:library:2.4.1@aar'
+    implementation "com.google.android.gms:play-services-maps:15.0.1"
+    implementation "com.google.android.gms:play-services-places:15.0.1"
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.squareup:otto:1.3.8'
+    implementation 'com.google.maps.android:android-maps-utils:0.4+'
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
+//    implementation 'com.github.rubensousa:gravitysnaphelper:1.5'
+    implementation 'me.zhanghai.android.materialratingbar:library:1.2.0'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+        transitive = true
+    }
+    implementation 'com.github.david-serrano:locationprovider:v1'
+
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    implementation 'com.anthonycr.grant:permissions:1.0'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation project(':simplehistogram')
+    implementation 'com.chauthai.overscroll:overscroll-bouncy:0.1.1'
+    implementation 'com.facebook.android:facebook-android-sdk:4.36.1'
+    implementation "com.orhanobut:hawk:2.0.1"
+    implementation 'com.jakewharton.timber:timber:4.7.0'
+    implementation 'com.kbeanie:image-chooser-library:1.5.8@aar'
+    implementation 'com.novoda:merlin:1.1.7'
+    implementation 'me.everything:overscroll-decor-android:1.0.4'
+
+    implementation 'com.github.ybq:Android-SpinKit:1.1.0'
+    implementation group: 'commons-lang', name: 'commons-lang', version: '2.6'
+
+    //    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    //    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    implementation 'io.nlopez.smartlocation:rx:3.3.3'
+    implementation 'io.paperdb:paperdb:2.6'
+    implementation 'com.myhexaville:smart-image-picker:1.0.4'
+
+//    compile 'com.github.quentin7b:android-location-tracker:3.2'
+
+}
+apply plugin: 'com.google.gms.google-services'

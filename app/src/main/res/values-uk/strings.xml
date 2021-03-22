@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_check_your_internet_connection">Перевірте підключення до Інтернету</string>
+    <string name="error_invalid_password">Пароль має містити щонайменше 6 символів</string>
+    <string name="title_PS_is_not_enabled">GPS не активовано. Ви хочете перейти до меню налаштувань?</string>
+    <string name="title_GPS_settings">GPS - налаштування</string>
+
+
+    <string name="app_name">NightApp</string>
+    <string name="language_english">Англійська</string>
+    <string name="language_french">Французька</string>
+    <string name="language_russian">Російська</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="title_language">Мова</string>
+    <string name="change_location">Змінити місцезнаходження</string>
+    <string name="send_feedback">Залишити відгук</string>
+    <string name="title_apply">Застосувати</string>
+    <string name="title_reset">Зкинути</string>
+    <string name="title_filters">Фільтри</string>
+    <string name="title_plural_place_type_night_club">Нічні клуби</string>
+    <string name="title_plural_place_type_bar">Бари</string>
+    <string name="title_karaoke">Караоке</string>
+    <string name="title_plural_place_type_restaurant">Ресторани</string>
+    <string name="title_singular_place_type_night_club">Ночной клубы</string>
+    <string name="title_loading">Завантаження</string>
+    <string name="title_frequentation">Відвідуваність</string>
+    <string name="photos">Фото</string>
+    <string name="title_about_place">Про заклад</string>
+    <string name="title_open_hours">Години роботи</string>
+    <string name="title_address">Адреса</string>
+    <string name="title_phone">Телефон</string>
+    <string name="title_direction">Маршрут</string>
+    <string name="title_website">Вебсайт</string>
+    <string name="title_gallery">Галерея</string>
+    <string name="title_send_feedback">Залишити відгук</string>
+    <string name="text">Текст</string>
+    <string name="title_send">Надіслати</string>
+    <string name="title_error">Помилка</string>
+    <string name="title_photos">фото</string>
+    <string name="title_of">з</string>
+    <string name="title_email">Email</string>
+    <string name="title_email_votre">Email</string>
+    <string name="error_invalid_email">Будь ласка, введіть свій email та відгук</string>
+    <string name="thanks_for_you_feedback">Дякуємо за ваш відгук!</string>
+    <string name="error_enter_valid_email">Введіть коректний email</string>
+    <string name="feedback_was_sent">Відгук було надіслано</string>
+    <string name="title_ok">OK</string>
+    <string name="title_change_location">Змінити місцезнаходження</string>
+    <string name="title_not_available">Прокладання маршруту недоступне</string>
+    <string name="title_directions_not_available">Прокладання маршруту з вашого міста недоступне</string>
+    <string name="title_features">Особливості</string>
+    <string name="title_place_type_like">Тип місць, які вам подобаються</string>
+    <string name="title_place_type">Типи закладiв</string>
+    <string name="title_no_filters">Немає фільтрів</string>
+    <string name="title_night_club">Нічний клуб</string>
+    <string name="title_bar">Бар</string>
+    <string name="title_restaurant">Ресторан</string>
+    <string name="title_closed">зачинено</string>
+    <string name="text_open_24">Вiдкрито цiлодобово</string>
+
+    <string name="tutorial_title_1">Дізнавайтесь про заповненність закладів</string>
+    <string name="tutorial_title_3">Знайдіть найкращий заклад на свій смак</string>
+    <string name="tutorial_title_2">Плануйте свій вечір наперед</string>
+
+    <string name="text_onboarding1">Перевіряйте рівень заповненості барів, нічних клубів та інших закладів для вечірок. Інформація оновлюється в реальному часі</string>
+    <string name="text_onboarding2">Стиль музики, дрес-код, суворість фейсконтролю, ціновий діапазон та інше</string>
+    <string name="text_onboarding_3">Використовуйте колесо часу для того, щоб визначити заповненість закладів на протязі кількох наступних годин</string>
+    <string name="title_next">Далі</string>
+    <string name="title_got_it">Зрозумів!</string>
+    <string name="title_skip">Пропустити</string>
+
+    <string name="report_bug_mistake_or_possible_improvement">Повідомте про помилку чи можливе удосконалення</string>
+    <string name="title_sorry_no_result">Вибачте, нічого не знайдено</string>
+    <string name="title_reload">перезавантажити</string>
+    <string name="place_details">Дані про заклад</string>
+    <string name="map_and_place_details">Карта та дані про заклад</string>
+    <string name="share_application">Поділитись додатком</string>
+    <string name="title_cancel">Відміна</string>
+    <string name="change_password">Змінити пароль</string>
+    <string name="title_current_password">Поточний пароль</string>
+    <string name="title_repeat_password">Підтвердження пароля</string>
+    <string name="title_new_password">Новий пароль</string>
+    <string name="title_error_password_size">Пароль має містити щонайменше 6 символів</string>
+    <string name="title_password_dont_match">Password don\'t match</string>
+    <string name="title_favourite">Улюблені</string>
+    <string name="title_days_open_to_go_out">Дні, зручні для прогулянок</string>
+    <string name="title_information">Інформація</string>
+    <string name="title_reset_password">Забули пароль?</string>
+    <string name="title_sign_up">Створити аккаунт</string>
+    <string name="sign_up_via_facebook">Створити аккаунт через Facebook</string>
+    <string name="title_sign_in">Вхiд</string>
+    <string name="forgot_password">Забули пароль?</string>
+    <string name="title_or">або</string>
+    <string name="sign_in_via_facebook">Увійти через Facebook</string>
+    <string name="title_have_you_already_have_an_account">Вже маєте акаунт?</string>
+
+    <string name="title_password">Пароль</string>
+    <string name="title_setting">Налаштування</string>
+    <string name="title_terms_and_condition">Умови використання</string>
+    <string name="title_logout">Вийти</string>
+    <string name="title_my_profile">Профіль</string>
+    <string name="title_have_you_not_account">Не маєте акаунт?</string>
+
+    <string name="error_auth_invalid_email">Введіть коректний email</string>
+
+    <string name="title_privacy_term_prefix">Реєструючись ви погоджуєтесь з</string>
+    <string name="title_terms_conditions">Умовами використання</string>
+    <string name="title_and">та</string>
+    <string name="title_privacy_policy">Політика конфіденційності</string>
+    <string name="title_personal_info">Особистi даннi</string>
+    <string name="title_date_of_birth">Дата народження</string>
+    <string name="title_occupation">Професія</string>
+    <string name="title_personal_tastes">Вподобання</string>
+    <string name="title_not_set">Не вказано</string>
+    <string name="title_change_password">Змінити пароль</string>
+    <string name="title_location">Місто</string>
+    <string name="title_music_types">Music types</string>
+    <string name="title_days_open_to_go_out_screen">Дні, зручні для прогулянок</string>
+    <string name="select_days_when_you_are_ready_to_go_out_sub_title_screen">Оберіть дні, коли ви не проти прогулятися</string>
+    <string name="title_edit">Змiнити</string>
+    <string name="title_visited">Відвідав</string>
+    <string name="title_first_name">Ім\'я</string>
+    <string name="title_last_name">Прізвище</string>
+    <string name="title_city">Місто</string>
+    <string name="title_select_your_occupation">Вкажiть Вашу профессію</string>
+    <string name="title_place_type_profile">Тип закладу</string>
+    <string name="title_select_your_favorite_place_type">Оберіть Ваш улюблений тип і ми запропонуємо Вам найкращі заклади поблизу</string>
+    <string name="title_select_photo">Обрати фото з Галереї</string>
+    <string name="title_take_new_photo">Зробіті нове фото</string>
+    <string name="title_delete_account">Видалити аккаунт</string>
+    <string name="title_remove_account">Ви впевнені, що бажаєте видалити аккаунт?</string>
+    <string name="title_delet">Видалити</string>
+    <string name="title_type_place_name">Введіть назву закладу</string>
+    <string name="occupation_details">Відомості про професію</string>
+    <string name="title_change_personal_data">Змiнити oсобистi даннi</string>
+    <string name="title_company_university">Назва компанії, університет тощо.</string>
+    <string name="title_help_us_improve_the_app">Залишити відгук</string>
+    <string name="title_occupation_details_student">Назва місця роботи</string>
+    <string name="title_occupation_details_employee">Назва навчального закладу</string>
+    <string name="NO_FREQUENTATION">Данні про заповненість зараз не доступні. Натисніть на “На скільки зараз заповнено“ щоб повідомити нам про поточну заповненість закладу</string>
+    <string name="not_busy">Не зайнятий</string>
+    <string name="quite_busy">Досить зайнятий</string>
+    <string name="very_busy">Дуже зайнятий</string>
+    <string name="is_the_data_correct">Чи правильні дані?</string>
+    <string name="how_busy_now">На скільки зараз заповнене?</string>
+    <string name="no_internet_connection">Вiрогiдно, Інтернет з\'єднання перервано.</string>
+    <string name="title_price">Ціна</string>
+    <string name="place_name">Назва закладу</string>
+    <string name="complete_place_s_profile">Детальний опис місця</string>
+    <string name="title_add">Додати</string>
+    <string name="title_text_short">Текст дуже короткий</string>
+    <string name="no_places_found">Закладів не знайдено</string>
+    <string name="send_update">Відправити на розгляд</string>
+    <string name="title_cant_be_empty">Це поле не може бути пустим</string>
+
+
+    <string name="FREQUENTATION_DESCRIPTION">Рухайте слайдер та оберіть на скільки заклад зараз заповнений</string>
+    <string name="title_features_report">Особливостi</string>
+    <string name="title_living_in">Місто</string>
+
+
+    <string-array name="planets_array">
+        <item>Щопонеділка</item>
+        <item>Щовівторка</item>
+        <item>Щосереди</item>
+        <item>Щочетверга</item>
+        <item>Щоп\'ятниці</item>
+        <item>Щосуботи</item>
+        <item>Щонеділі</item>
+
+
+    </string-array>
+
+    <string name="title_location_description">Виберіть ваше місто</string>
+    <string name="send_screenshot">Підтвердити</string>
+    <string name="title_name_description">Напишіть своє ім\'я</string>
+    <string name="title_famile_description">Напишіть своє прізвище</string>
+    <string name="update_sent">Відгук було надіслано!</string>
+    <string name="updating_sent">Дякуємо за ваш відгук!</string>
+    <string name="title_delete_photo">Видалити фото</string>
+    <string name="titlr_password_changed">Пароль успішно змінений</string>
+    <string name="suggest_edits">Запропонувати правки</string>
+    <string name="write">Введіть</string>
+    <string name="title_verification">"Вам було вiдправлено листа на email. Будь-ласка, дотримайтесь інструкцій в листi, щоб закiнчити реєстрацію</string>
+    <string name="string_updating">Оновлення</string>
+    <string name="title_timeout">Сервер не відповідає</string>
+    <string name="text_timeout">Сервер довгий час не відповідає, перевірте підключення до Інтернету та спробуйте ще раз</string>
+    <string name="title_update_sent">Оновлення було вiдправлено</string>
+    <string name="title_thanks">Дякуємо!</string>
+    <string name="loading_photo">Завантаження фотографій…</string>
+
+    <string name="thanks_for_you_update">Оновлення було відправлено</string>
+    <string name="thanks_update">Дякуємо!</string>
+
+    <string name="title_session_expidred">Увійдіть будь-ласка знову</string>
+    <string name="title_error_load_photo">Неможливо прочитати файл, спробуйте вибрати інший або змінити постачальника картинок</string>
+    <string name="title_server_error">Помилка сервера </string>
+    <string name="title_try_again">Будь ласка спробуйте ще раз</string>
+    <string name="title_permi_to_locale">Needing permission to locate</string>
+    <string name="title_confirm_location">Відкрити у Картах?</string>
+    <string name="Map">Google Карти</string>
+    <string name="title_getting_location">Будь ласка, зачекайте, додаток отримує координати, перевірте тип вибраних провайдерів координат у налаштуваннях для прискорення отримання. налаштування для прискорення отримання.</string>
+    <string name="title_getting_coordinate_header">Отримання координат</string>
+
+</resources>

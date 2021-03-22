@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">NightApp</string>
+    <string name="title_reset">Reset</string>
+    <string name="title_apply">Apply</string>
+    <string name="title_place_type">Place types</string>
+    <string name="title_place_type_like">Type of places you like</string>
+    <string name="title_loading">Loading</string>
+    <string name="title_features">Features</string>
+    <string name="title_error">Error</string>
+    <string name="title_check_your_internet_connection">Check your internet connection</string>
+    <string name="title_website">Website</string>
+    <string name="title_direction">Directions</string>
+    <string name="title_of">of</string>
+    <string name="title_photos">photos</string>
+    <string name="title_frequentation">Frequentation</string>
+    <string name="title_filters">Filters</string>
+    <string name="title_plural_place_type_night_club">Night clubs</string>
+    <string name="title_plural_place_type_bar">Bars</string>
+    <string name="title_plural_place_type_restaurant">Restaurants</string>
+    <string name="title_karaoke">Karaoke</string>
+    <string name="title_reload">reload</string>
+    <string name="error_invalid_password">Password must be a minimum of 6 characters</string>
+
+
+
+    <string name="title_gallery">Gallery</string>
+    <string name="photos">Photos</string>
+    <string name="title_directions_not_available">Directions are not available from your city</string>
+    <string name="title_not_available">Directions are not available</string>
+    <string name="title_ok">ok</string>
+    <string name="title_email">Email</string>
+    <string name="title_email_votre">Email</string>
+    <string name="text">Text</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="thanks_for_you_feedback">Thanks for you feedback!</string>
+    <string name="feedback_was_sent">Feedback was sent</string>
+    <string name="error_enter_valid_email">Enter valid email</string>
+    <string name="title_language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_french">French</string>
+    <string name="language_russian">Russian</string>
+    <string name="language_ukrainian">Ukrainian</string>
+    <string name="change_location">Change location</string>
+    <string name="send_feedback">Help us improve the app</string>
+    <string name="title_about_place">About place</string>
+    <string name="title_open_hours">Open hours</string>
+    <string name="title_address">Address</string>
+    <string name="title_phone">Phone</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_send">Send</string>
+    <string name="title_change_location">Change Location</string>
+    <string name="title_no_filters">No filters</string>
+    <string name="title_night_club">Night club</string>
+    <string name="title_bar">Bar</string>
+    <string name="title_restaurant">Restaurant</string>
+    <string name="title_closed">closed</string>
+    <string name="title_skip">Skip</string>
+    <string name="title_next">Next</string>
+    <string name="title_got_it">Got it!</string>
+
+
+    <string name="tutorial_title_1">Locate the most busy bars, nightclubs and other party places on our map</string>
+    <string name="tutorial_title_3">Find party places and events that really match your taste</string>
+    <string name="tutorial_title_2">Wanna party all night?</string>
+
+    <string name="text_onboarding1">Our data is live</string>
+    <string name="text_onboarding2">Style of music, dress code, clientele, budget and more</string>
+    <string name="text_onboarding_3">Spot next hour\'s hottest spots thanks to our timewheel</string>
+
+
+    <string name="empty" />
+    <string name="text_open_24">Open 24 hours</string>
+    <string name="report_bug_mistake_or_possible_improvement">Report bug, mistake or possible improvement</string>
+    <string name="title_sorry_no_result">Sorry, no result found</string>
+    <string name="title_GPS_settings">GPS is settings</string>
+    <string name="title_PS_is_not_enabled">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_password">Password</string>
+    <string name="error_auth_invalid_email">Enter valid email</string>
+    <string name="place_details">Place details</string>
+    <string name="map_and_place_details">Map and place details</string>
+    <string name="share_application">Share application</string>
+    <string name="change_password">Change password</string>
+    <string name="title_current_password">Current password</string>
+    <string name="title_repeat_password">Confirm password</string>
+    <string name="title_new_password">New password</string>
+    <string name="title_error_password_size">Password must be a minimum of 6 characters</string>
+    <string name="title_password_dont_match">Password don\'t match</string>
+    <string name="title_occupation">Occupation</string>
+    <string name="title_favourite">FAVOURITE</string>
+    <string name="title_days_open_to_go_out">Days open to go out</string>
+    <string name="title_information">Information</string>
+    <string name="title_reset_password">Reset Password</string>
+    <string name="title_sign_up">Sign Up</string>
+    <string name="sign_up_via_facebook">Sign Up via Facebook</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_or">or</string>
+    <string name="sign_in_via_facebook">Sign In via Facebook</string>
+    <string name="title_have_you_not_account">Do not have an account? </string>
+    <string name="title_have_you_already_have_an_account">Already have an account?</string>
+    <string name="title_terms_and_condition">Terms and Condition</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_my_profile">My profile</string>
+
+
+    <string name="title_privacy_term_prefix"><![CDATA[By signing up you agree to]]></string>
+    <string name="title_terms_conditions">Terms &amp; Conditions</string>
+    <string name="title_and">and</string>
+    <string name="title_privacy_policy"><![CDATA[Privacy Policy]]></string>
+    <string name="title_personal_info">Personal info</string>
+    <string name="title_date_of_birth">Date of Birth</string>
+    <string name="title_personal_tastes">Personal taste</string>
+    <string name="title_not_set">Not set</string>
+    <string name="title_change_password">Change password</string>
+    <string name="title_location">Location</string>
+    <string name="title_music_types">Music types</string>
+    <string name="title_days_open_to_go_out_screen">Days open to go out</string>
+    <string name="select_days_when_you_are_ready_to_go_out_sub_title_screen">Select days when you are ready to go out</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_visited">Visited</string>
+    <string name="title_first_name">First name</string>
+    <string name="title_last_name">Last name</string>
+    <string name="title_city">City</string>
+    <string name="title_location_description">Select your city</string>
+    <string name="title_select_your_occupation">Select your occupation</string>
+    <string name="title_place_type_profile">Place type</string>
+    <string name="title_select_your_favorite_place_type">Select your favorite place type and we will recommend you the best places at location</string>
+    <string name="title_select_photo">Select photo from Library</string>
+    <string name="title_take_new_photo">Take new photo</string>
+    <string name="title_delete_account">Delete account</string>
+    <string name="title_remove_account">Are you sure you want to delete account?</string>
+    <string name="title_delet">Delete</string>
+    <string name="title_type_place_name">Type place name</string>
+    <string name="occupation_details">Occupation details</string>
+    <string name="title_change_personal_data">Change personal data</string>
+    <string name="title_company_university">Company name, university etc.</string>
+    <string name="title_help_us_improve_the_app">Help us improve the app</string>
+    <string name="title_occupation_details_student">Name of the educational institution</string>
+    <string name="title_occupation_details_employee">The name of the place of work</string>
+
+    <string name="FREQUENTATION_DESCRIPTION">Please move slider and select how busy does it feels to you right now</string>
+    <string name="NO_FREQUENTATION">Frequentation data not available for now. Please click on “How busy is it now“ to update us with current frequentation</string>
+    <string name="not_busy">Not busy</string>
+    <string name="quite_busy">Quite busy</string>
+    <string name="very_busy">Very busy</string>
+
+    <string name="send_update">Send update</string>
+    <string name="is_the_data_correct">How busy does if feel now?</string>
+    <string name="how_busy_now">How busy is it now?</string>
+    <string name="permission_was_not_granted">permission_was_not_granted</string>
+    <string name="no_internet_connection">The Internet connection appears to be offline</string>
+    <string name="title_price">Price</string>
+    <string name="place_name">Place name</string>
+    <string name="complete_place_s_profile">Correct and/or fill places profile</string>
+    <string name="title_add">Add</string>
+    <string name="title_text_short">The text is short</string>
+    <string name="no_places_found">No places found</string>
+    <string name="title_features_report">Feature(s)</string>
+    <string name="title_living_in">Living in</string>
+    <string name="send_screenshot">Confirm</string>
+    <string name="title_name_description">Write your first name</string>
+    <string name="title_famile_description">Write your last name</string>
+    <string name="update_sent">Feedback was sent</string>
+    <string name="updating_sent">Thanks for your feedback!</string>
+    <string name="title_delete_photo">Delete photo</string>
+    <string name="titlr_password_changed">Password changed successfully</string>
+    <string name="suggest_edits">Suggest edits</string>
+    <string name="write">Write</string>
+    <string name="string_updating">Updating</string>
+    <string name="title_cant_be_empty">This field can\'t be empty</string>
+    <string name="title_verification">A verification e-mail was sent to you. Please follow instructions provided in mail to complete your registration.</string>
+    <string name="title_timeout">Time out</string>
+    <string name="text_timeout">The server does not respond for a long time, check the connection to the Internet and try again</string>
+    <string name="title_update_sent">Update has been sent</string>
+    <string name="title_thanks">Thanks you!</string>
+    <string name="loading_photo">Loading photo...</string>
+    <string name="title_session_expidred">Please login in again</string>
+    <string name="title_error_load_photo">Can not read the file, try another one, or change the picture provider</string>
+
+    <string-array name="planets_array">
+        <item>Mondays</item>
+        <item>Tuesdays</item>
+        <item>Wednesdays</item>
+        <item>Thursdays</item>
+        <item>Fridays</item>
+        <item>Saturdays</item>
+        <item>Sundays</item>
+
+    </string-array>
+
+
+    <string name="thanks_for_you_update">Update has been sent</string>
+    <string name="thanks_update">Thanks you</string>
+    <string name="title_server_error" >Server error</string>
+    <string name="title_try_again">Please try again</string>
+    <string name="title_permi_to_locale">Needing permission to locate</string>
+    <string name="title_confirm_location">Do you want to open Google Maps?</string>
+    <string name="Map">Google Map</string>
+    <string name="title_getting_location">Please wait,  app gets coordinates, check the type of selected coordinate providers in the settings for speed up receipt.</string>
+    <string name="title_getting_coordinate_header">Getting coordinate</string>
+
+
+</resources>

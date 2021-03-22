@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141D2B</color>
+    <color name="colorPrimaryDark">#FF121D2B</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="colorIndicatorActive">#3691ED</color>
+    <color name="colorIndicatorPassive">#243043</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorStarsYellow">#F3BA25</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTextBlue">#3691ED</color>
+    <color name="colorTextWhiteGrey">#A1A4AA</color>
+    <color name="colorTextGrey">#505762</color>
+    <color name="colorTextSubFilter">#505762</color>
+    <color name="colorTextSubFilterSelected">#FF3691ED</color>
+    <color name="colorPrimaryTransparent">#85141D2B</color>
+
+    <color name="colorDivider">#FF314054</color>
+    <color name="colorDividerWhite">#384b67</color>
+    <color name="colorPlaceDetailsScreen">#21293c</color>
+
+    <color name="transparent">#00ffffff</color>
+
+
+    <color name="colorPinCircle10">#1e5d79ff</color>
+    <color name="colorPinCircle20">#2d0092ff</color>
+    <color name="colorPinCircle30">#320096ff</color>
+    <color name="colorPinCircle40">#372abdff</color>
+    <color name="colorPinCircle50">#3d45d7ff</color>
+    <color name="colorPinCircle60">#4240c11e</color>
+    <color name="colorPinCircle70">#47bfbf00</color>
+    <color name="colorPinCircle80">#4cbfbf00</color>
+    <color name="colorPinCircle90">#51ff6a13</color>
+    <color name="colorPinCircle100">#56fb3650</color>
+
+
+    <color name="colorPreviewPoPap">#282e3e</color>
+    <color name="colorErrorPoPap">#79282e3e</color>
+    <color name="colorDatePicker">#CC141D2B</color>
+    <color name="colorDatePickerText">#FFFFFFFF</color>
+    <color name="colorDatePickerDivider">#FF3691ED</color>
+    <color name="colorDatePickerCurrentHour">#cfff6363</color>
+
+    <color name="colorSideMenuBackground">#21293c</color>
+    <color name="colorBackground">#21293c</color>
+
+
+    <color name="colorNoSelectButton">#FF3691ED</color>
+    <color name="colorSelectButton">#48739e</color>
+
+    <color name="defaultUnderline">#888888</color>
+    <color name="defaultDivider">#000000</color>
+    <color name="defaultColumn">#0066ff</color>
+
+
+    <color name="colorPlaceDetailsWhite">#262c3a</color>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_check_your_internet_connection">Проверьте подключение к Интернету</string>
+    <string name="title_reload">перезагрузить</string>
+
+
+    <string name="app_name">NightApp</string>
+    <string name="language_english">Английский</string>
+    <string name="language_french">Французкий</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_ukrainian">Украинский</string>
+    <string name="title_language">Язык</string>
+    <string name="change_location">Сменить местоположение</string>
+    <string name="send_feedback">Оставить отзыв</string>
+    <string name="title_apply">Применить</string>
+    <string name="title_reset">Сброс</string>
+    <string name="title_filters">Фильтры</string>
+    <string name="title_plural_place_type_night_club">Ночные клубы</string>
+    <string name="title_plural_place_type_bar">Бары</string>
+    <string name="title_karaoke">Караоке</string>
+    <string name="title_plural_place_type_restaurant">Рестораны</string>
+    <string name="title_singular_place_type_night_club">Ночной клубы</string>
+    <string name="title_loading">Загрузка</string>
+    <string name="title_frequentation">Посещаемость</string>
+    <string name="photos">Фото</string>
+    <string name="title_about_place">О заведении</string>
+    <string name="title_open_hours">Часы работы</string>
+    <string name="title_address">Адрес</string>
+    <string name="title_phone">Телефон</string>
+    <string name="title_direction">Маршрут</string>
+    <string name="title_website">Вебсайт</string>
+    <string name="title_gallery">Галерея</string>
+    <string name="title_send_feedback">Оставить отзыв</string>
+    <string name="text">Текст</string>
+    <string name="title_send">Отправить</string>
+    <string name="title_error">Ошибка</string>
+    <string name="error_auth_invalid_email">Введите корректный email</string>
+    <string name="error_invalid_password">Пароль должен содержать не меньше 6 символов</string>
+
+    <string name="title_photos">фото</string>
+    <string name="title_of">из</string>
+    <string name="title_email">Email</string>
+    <string name="title_email_votre">Email</string>
+    <string name="error_invalid_email">Пожалуйста, введите свой email и отзыв</string>
+    <string name="thanks_for_you_feedback">Спасибо за ваш отзыв!</string>
+    <string name="error_enter_valid_email">Введите корректный email</string>
+    <string name="feedback_was_sent">Отзыв был отправлен</string>
+    <string name="title_ok">OK</string>
+    <string name="title_have_you_not_account">Нет аккаунта? </string>
+
+    <string name="title_change_location">Сменить местоположение</string>
+    <string name="title_not_available">Прокладывание маршрута недоступно</string>
+    <string name="title_directions_not_available">Построение маршрута из вашего города не доступно</string>
+    <string name="title_features">Особенности</string>
+    <string name="title_place_type">Тип заведения</string>
+    <string name="title_no_filters">Нет фильтров</string>
+    <string name="title_place_type_like">Тип мест, которые вам нравятся</string>
+    <string name="title_night_club">Ночной клуб</string>
+    <string name="title_bar">Бар</string>
+    <string name="title_restaurant">Ресторан</string>
+    <string name="title_closed">закрыто</string>
+
+    <string name="tutorial_title_1"> Узнайте о заполненности заведений!</string>
+    <string name="tutorial_title_3"> Найдите лучшее заведение на свой вкус для себя</string>
+    <string name="tutorial_title_2">Спланируйте свой вечер наперед</string>
+
+    <string name="text_onboarding1"> Проверяйте заполненность баров, ночных клубов и остальных мест для тусовок. Информация поступает в реальном времени</string>
+    <string name="text_onboarding2">Стиль музыки, дресс-код, строгость фейсконтроля, ценовой диапазон и так далее</string>
+    <string name="text_onboarding_3">Используйте прокрутку времени чтобы определить заполненность заведений в течении нескольких следующих часов</string>
+
+
+    <string name="text_open_24">Открыто круглосуточно</string>
+    <string name="title_next">Следующий</string>
+    <string name="title_got_it">Понял!</string>
+
+    <string name="report_bug_mistake_or_possible_improvement">Сообщите об ошибке или возможном усовершенствовании</string>
+    <string name="title_skip">Пропустить</string>
+    <string name="title_sorry_no_result">Извините, ничего не найдено</string>
+    <string name="place_details">Данные о заведении</string>
+    <string name="map_and_place_details">Карта и данные о заведении</string>
+    <string name="share_application">Поделиться приложением</string>
+    <string name="title_cancel">Отмена</string>
+    <string name="change_password">Сменить пароль</string>
+    <string name="title_current_password">Текущий пароль</string>
+    <string name="title_repeat_password">Подтверждение пароля</string>
+    <string name="title_new_password">Новый пароль</string>
+    <string name="title_error_password_size">Пароль должен содержать не меньше 6 символов</string>
+    <string name="title_password_dont_match">Password don\'t match</string>
+    <string name="title_favourite">Любимые</string>
+    <string name="title_days_open_to_go_out">Удобные дни для прогулок</string>
+    <string name="title_information">Информация</string>
+    <string name="title_reset_password">Забыли пароль?</string>
+    <string name="title_sign_up">Создать аккаунт</string>
+    <string name="sign_up_via_facebook">Создать аккаунт через Facebook</string>
+    <string name="title_sign_in">Вход</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="title_or">или</string>
+    <string name="sign_in_via_facebook">Войти через Facebook</string>
+    <string name="title_have_you_already_have_an_account">Уже есть аккаунт?</string>
+    <string name="title_password">Пароль</string>
+    <string name="title_setting">Настройки</string>
+    <string name="title_terms_and_condition">Политика конфиденциальности</string>
+    <string name="title_logout">Выйти</string>
+    <string name="title_my_profile">Профиль</string>
+
+
+    <string name="title_privacy_term_prefix">Регистрируясь вы соглашаетесь с</string>
+    <string name="title_terms_conditions">Политика конфиденциальности</string>
+    <string name="title_and">и</string>
+    <string name="title_privacy_policy">Условия использования</string>
+    <string name="title_personal_info">Личные данные</string>
+    <string name="title_date_of_birth">Дата рождения</string>
+    <string name="title_occupation">Профессия</string>
+    <string name="title_personal_tastes">Предпочтения</string>
+    <string name="title_not_set">Не указано</string>
+    <string name="title_change_password">Сменить пароль</string>
+    <string name="title_location">Город</string>
+    <string name="title_music_types">Music types[переклад сюди потрібний}</string>
+    <string name="title_days_open_to_go_out_screen">Удобные дни для прогулок</string>
+    <string name="select_days_when_you_are_ready_to_go_out_sub_title_screen">Выберите дни, когда Вы не прочь прогуляться</string>
+    <string name="title_edit">Изменить</string>
+    <string name="title_visited">Посещенные</string>
+    <string name="title_first_name">Имя</string>
+    <string name="title_last_name">Фамилия</string>
+    <string name="title_city">Город</string>
+    <string name="title_select_your_occupation">Укажите Вашу профессию</string>
+    <string name="title_place_type_profile">Тип заведения</string>
+    <string name="title_select_your_favorite_place_type">Выберите Ваш любимый тип и мы предложим Вам лучшие заведения поблизости</string>
+    <string name="title_select_photo">Выбрать фото из Галереи</string>
+    <string name="title_take_new_photo">Сделать новое фото</string>
+    <string name="title_delete_account">Удалить аккаунт</string>
+    <string name="title_remove_account">Вы уверены, что хотите удалить аккаунт?</string>
+    <string name="title_delet">Удалить</string>
+    <string name="title_type_place_name">Введите название заведения</string>
+    <string name="occupation_details">Сведения о профессии</string>
+    <string name="title_change_personal_data">Изменить личные данные</string>
+    <string name="title_company_university">Название компании, университет и т.д.</string>
+    <string name="title_help_us_improve_the_app">Оставить отзыв</string>
+    <string name="title_occupation_details_student">Название места работы</string>
+    <string name="title_occupation_details_employee">Название учебного заведения</string>
+    <string name="NO_FREQUENTATION">Данные о заполненности сейчас не доступны. Нажмите на “На сколько сейчас заполнено“ чтобы сообщить нам о текущей заполненности заведения</string>
+    <string name="not_busy">Не занят</string>
+    <string name="quite_busy">Немного занят</string>
+    <string name="very_busy">Очень занят</string>
+
+    <string name="send_update">Отправить на рассмотрение</string>
+
+    <string name="is_the_data_correct">Данные правильные?</string>
+    <string name="how_busy_now">На сколько сейчас заполнено?</string>
+    <string name="no_internet_connection">Вероятно, соединение с Интернетом прервано.</string>
+    <string name="title_price">Цена</string>
+    <string name="place_name">Название заведения</string>
+    <string name="complete_place_s_profile">Детальное описание места</string>
+    <string name="title_add">Добавить</string>
+    <string name="title_text_short">Текст очень краткий</string>
+    <string name="no_places_found">Заведений не найдено</string>
+    <string name="title_features_report">Особенности</string>
+    <string name="FREQUENTATION_DESCRIPTION">Двигайте слайдер и выберите на сколько заведение сейчас заполнено</string>
+    <string name="title_living_in">Город</string>
+    <string name="title_cant_be_empty">Это поле не может быть пустым</string>
+
+
+    <string-array name="planets_array">
+        <item>По понедельникам</item>
+        <item>По вторникам</item>
+        <item>По средам</item>
+        <item>По четвергам</item>
+        <item>По пятницам</item>
+        <item>По субботам</item>
+        <item>По воскресеньям</item>
+
+    </string-array>
+
+    <string name="title_location_description">Выберите ваш город</string>
+    <string name="send_screenshot">Подтвердить</string>
+    <string name="title_name_description">Напишите свое имя</string>
+    <string name="title_famile_description">Напишите свою фамилию</string>
+    <string name="update_sent">Обновление отправлено</string>
+    <string name="updating_sent">Спасибо за ваш отзыв!</string>
+    <string name="title_delete_photo">Удалить фото</string>
+    <string name="titlr_password_changed">Пароль успешно изменен</string>
+    <string name="suggest_edits">Предложить правки</string>
+    <string name="write">Введите</string>
+    <string name="title_verification">Вам было отправлено письмо на email. Пожалуйста, следуйте инструкциям в письме, чтобы завершить регистрацию</string>
+    <string name="string_updating">Обновление</string>
+    <string name="title_timeout">Время ожидания истекло</string>
+    <string name="text_timeout">Сервер не отвечает в течение длительного времени, проверьте подключение к Интернету и повторите попытку</string>
+    <string name="title_update_sent">Обновление отправлено</string>
+    <string name="title_thanks">Спасибо!</string>
+    <string name="loading_photo">Загрузка фото...</string>
+    <string name="title_PS_is_not_enabled">GPS не включен. Вы хотите перейти в меню настроек?</string>
+    <string name="title_GPS_settings">Настройки GPS</string>
+
+    <string name="thanks_for_you_update">Обновление отправлено</string>
+    <string name="thanks_update">Спасибо!</string>
+
+    <string name="title_session_expidred">Войдите пожалуйста снова</string>
+    <string name="title_error_load_photo">Невозможно прочитать файл, попробуйте выбрать другой либо изменить поставщика картинок</string>
+    <string name="title_server_error" >Ошибка сервера</string>
+    <string name="title_try_again">Пожалуйста, попробуйте еще раз</string>
+    <string name="title_permi_to_locale">Needing permission to locate</string>
+    <string name="title_confirm_location">Открыть в Картах?</string>
+    <string name="Map">Google Карты</string>
+    <string name="title_getting_location">Подождите, приложение получит координаты, проверьте тип поставщиков координат выбора в настройках для ускорения получения. настройки для ускорения получения.</string>
+    <string name="title_getting_coordinate_header">Получение координаты</string>
+
+
+</resources>

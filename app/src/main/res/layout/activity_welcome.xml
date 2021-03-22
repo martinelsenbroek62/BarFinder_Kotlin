@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141d2b"
+    android:orientation="vertical"
+    tools:context=".ui.screens.welcome.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0"
+        android:clickable="true"
+        android:gravity="right"
+        android:padding="8dp"
+        android:text="@string/title_skip"
+        android:textColor="@drawable/text_view_selector"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_weight="1"
+            android:id="@+id/vp_welcome_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/tv_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:theme="@style/Widget.TabPageIndicator" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/btn_onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_filter_selector"
+        android:gravity="center"
+        android:text="@string/title_next"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "836575384131",
+    "firebase_url": "https://lemust-5a55f.firebaseio.com",
+    "project_id": "lemust-5a55f",
+    "storage_bucket": "lemust-5a55f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836575384131:android:a1f691133ffd83e1",
+        "android_client_info": {
+          "package_name": "com.lemust"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836575384131-caehcsfci54m2i23v04940cmh4fggoif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_x-0JqOVnwi3IDPauH1ZKxW-x777QAHo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

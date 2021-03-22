@@ -1,0 +1,139 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".ui.screens.left_menu.city.CityFragment">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPlaceDetailsScreen"
+    android:orientation="vertical"
+    tools:context=".ui.screens.left_menu.city.CityFragment">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    android:paddingRight="16dp"
+                    app:srcCompat="@drawable/ic_left_line_24dp" />
+
+            </FrameLayout>
+
+            <TextView
+
+                android:id="@+id/tv_screen_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:text="@string/title_filters"
+                android:textColor="@color/colorWhite"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:clickable="false"
+
+                android:gravity="right"
+                android:text="@string/title_apply"
+                android:textColor="@drawable/text_view_selector"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPlaceDetailsScreen"
+        android:orientation="vertical"
+        tools:context=".ui.screens.left_menu.city.CityFragment">
+
+
+        <TextView
+            android:id="@+id/tv_music_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="16dp"
+            android:visibility="gone"
+            android:text="@string/title_select_your_favorite_place_type"
+            android:textColor="@color/colorTextWhiteGrey"
+            android:textSize="13sp" />
+
+        <com.chauthai.overscroll.RecyclerViewBouncy
+            android:layout_weight="1"
+            android:id="@+id/rv_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_apply"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0"
+            android:background="@drawable/button_filter_selector"
+            android:gravity="center"
+            android:text="@string/title_apply"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    <include android:id="@+id/pb_map"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+        layout="@layout/loader"/>
+</FrameLayout>

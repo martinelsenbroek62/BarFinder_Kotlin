@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141d2b"
+    android:orientation="vertical"
+   >
+
+    <include
+        android:id="@+id/pb_map"
+        layout="@layout/loader"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#202A3A"
+            android:paddingTop="32dp">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:clickable="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                app:srcCompat="@drawable/ic_navigation_back" />
+
+            <EditText
+                android:id="@+id/et_places"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/search_background_drawable"
+                android:hint="@string/title_type_place_name"
+                android:inputType="text"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:theme="@style/ThemeEditText" />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.chauthai.overscroll.RecyclerViewBouncy
+                android:id="@+id/rv_places"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/empty_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/no_places_found"
+                android:textColor="#A1A4AA"
+                android:visibility="gone" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

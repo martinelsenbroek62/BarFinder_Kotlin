@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSideMenuBackground"
+    tools:context=".ui.base.navigation.NavigationController">
+
+    <FrameLayout
+        android:id="@+id/fl_left_container"
+
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorSideMenuBackground"
+        android:elevation="4dp">
+
+        <fragment
+            android:name="com.lemust.ui.screens.left_menu.LeftMenuFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_right_container"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:elevation="4dp">
+
+        <fragment
+            android:id="@+id/fragment_right"
+
+            android:name="com.lemust.ui.screens.filters.base.FiltersFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+    <!--android:layout_marginLeft="-8dp"-->
+    <!--android:layout_marginRight="-8dp"-->
+    <FrameLayout
+        android:id="@+id/fl_base_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:elevation="8dp">
+
+        <fragment
+            android:id="@+id/fragment_content"
+            android:name="com.lemust.ui.screens.main.map.MainFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/fl_touch_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="14dp"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+</FrameLayout>

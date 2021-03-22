@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="bottom"
+  android:orientation="vertical">
+  <View
+    android:id="@+id/columnHourLoad"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:gravity="bottom" />
+  <TextView
+    android:id="@+id/columnHourText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:layout_gravity="center"
+    android:ems="1"
+    android:gravity="bottom"
+    android:textSize="12sp"
+    tools:text="24" />
+</LinearLayout>

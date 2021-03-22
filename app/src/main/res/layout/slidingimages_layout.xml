@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.steelkiwi.simplehistogram.SimpleHistogramView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/histoView"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="16dp"
+    android:background="@android:color/transparent"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp" />
+
+

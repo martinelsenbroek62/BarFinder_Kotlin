@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="languages">
+        <item>@string/language_english</item>
+        <item>@string/language_french</item>
+        <item>@string/language_russian</item>
+        <item>@string/language_ukrainian</item>
+    </string-array>
+
+    <string name="language_code_en">en</string>
+
+    <string-array name="languages_codes">
+        <item>@string/language_code_en</item>
+        <item>fr</item>
+        <item>ru</item>
+        <item>uk</item>
+    </string-array>
+
+</resources>

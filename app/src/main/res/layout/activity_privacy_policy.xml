@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPlaceDetailsScreen">
+
+    <ProgressBar
+        android:id="@+id/pb_language_map"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="32dp"
+            android:padding="8dp"
+            android:src="@mipmap/icn_navigation_back" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorPlaceDetailsScreen"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/type_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorPlaceDetailsScreen"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_short_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/colorTextWhiteGrey" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPlaceDetailsScreen">
+
+            <ScrollView
+                android:id="@+id/city_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_cities_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_weight="0"
+                        android:textColor="@color/colorTextWhiteGrey" />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/pb_map_page"
+        layout="@layout/loader"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

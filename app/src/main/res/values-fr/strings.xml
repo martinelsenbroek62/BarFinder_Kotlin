@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NightApp</string>
+    <string name="language_english">Anglais</string>
+    <string name="language_french">Français</string>
+    <string name="language_russian">Russe</string>
+    <string name="language_ukrainian">Ukrainien</string>
+    <string name="title_PS_is_not_enabled">Le GPS n\'est pas activé. Voulez-vous aller au menu des paramètres?</string>
+    <string name="title_GPS_settings">GPS les paramètres</string>
+
+    <string name="title_language">Langues</string>
+    <string name="change_location">Villes</string>
+    <string name="send_feedback">Nous contacter</string>
+    <string name="title_apply">OK</string>
+    <string name="title_reset">Réinitialiser</string>
+    <string name="title_filters">Filtres</string>
+    <string name="title_plural_place_type_night_club">Boîtes de nuit</string>
+    <string name="title_plural_place_type_bar">Bars</string>
+    <string name="title_karaoke">Karaokés</string>
+    <string name="title_plural_place_type_restaurant">Restaurants</string>
+
+    <string name="title_loading">Chargement</string>
+    <string name="title_frequentation">Fréquentation</string>
+    <string name="photos">Photos</string>
+    <string name="title_about_place">A propos</string>
+    <string name="title_open_hours">Horaires</string>
+    <string name="title_address">Adresse</string>
+    <string name="title_phone">Téléphone</string>
+    <string name="title_direction">Itinéraire.</string>
+    <string name="title_website">www</string>
+    <string name="title_gallery">Galerie</string>
+    <string name="title_send_feedback">Nous contacter</string>
+    <string name="text">Message</string>
+    <string name="title_send">Envoyer</string>
+    <string name="title_error">Erreur</string>
+    <string name="title_photos">photos</string>
+    <string name="title_of">de</string>
+    <string name="title_email">E-mail</string>
+    <string name="title_email_votre">Votre E-mail</string>
+
+    <string name="error_invalid_email">Veuillez entrer votre avis et emailв</string>
+    <string name="thanks_for_you_feedback">Merci</string>
+    <string name="error_enter_valid_email">Entrez une adresse email valide</string>
+    <string name="feedback_was_sent">Votre message a été envoyé !</string>
+    <string name="title_ok">OK</string>
+    <string name="title_change_location">Villes</string>
+    <string name="title_not_available">La direction n\'est pas disponible</string>
+    <string name="title_directions_not_available">Il n\'est pas disponible de construire un itinéraire de votre ville</string>
+    <string name="title_features">Caractéristiques</string>
+    <string name="title_place_type">Endroits appréciés</string>
+    <string name="title_no_filters">Pas de filtres</string>
+    <string name="title_night_club">Boîte de nuit</string>
+    <string name="title_bar">Bar</string>
+    <string name="title_restaurant">Restaurant</string>
+    <string name="title_singular_place_type_night_club">Boîte de nuit</string>
+    <string name="title_closed">fermé</string>
+
+    <string name="text_open_24">Ouvert 24h/24</string>
+
+    <string name="tutorial_title_1">Taux de fréquentation des bars, clubs et autres lieux festifs</string>
+    <string name="tutorial_title_3">Trouvez des endroits qui vous plaisent vraiment</string>
+    <string name="tutorial_title_2">Planifiez vos soirées</string>
+
+    <string name="text_onboarding1">Notre data est live et prédictive</string>
+    <string name="text_onboarding2">Type de musique, dress code, tranche de prix, clientèle, etc.</string>
+    <string name="text_onboarding_3">Utilisez notre roulette pour consulter l’évolution des soirées</string>
+    <string name="title_next">Suivant</string>
+    <string name="title_got_it">Compris!</string>
+    <string name="error_auth_invalid_email">Entrez une adresse email valide</string>
+    <string name="error_invalid_password">Le mot de passe doit contenir au moins 6 caractères</string>
+
+
+    <string name="report_bug_mistake_or_possible_improvement">Signaler un bug ou proposer une amélioration</string>
+    <string name="title_skip">Ignorer</string>
+    <string name="title_sorry_no_result">Désolé, nous n\'avons rien trouvé</string>
+
+    <string name="title_check_your_internet_connection">Vérifiez votre connection internet</string>
+    <string name="title_reload">recharger</string>
+    <string name="place_details">Détails de l\'endroit</string>
+    <string name="map_and_place_details">Détails de l\'endroit et carte</string>
+    <string name="share_application">Partager l\'application</string>
+    <string name="title_cancel">Annuler</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="title_current_password">Mot de passe actuel</string>
+    <string name="title_repeat_password">Confirmer le mot de passe</string>
+    <string name="title_new_password">Nouveau mot de passe</string>
+    <string name="title_error_password_size">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="title_password_dont_match">Password don\'t match</string>
+    <string name="title_favourite">Préféré</string>
+    <string name="title_days_open_to_go_out">Jour(s) de sortie potentielle</string>
+    <string name="title_information">Information</string>
+    <string name="title_reset_password">Réinitialiser le mot de passe</string>
+    <string name="title_sign_up">Inscription</string>
+    <string name="sign_up_via_facebook">Inscription via Facebook</string>
+    <string name="title_sign_in">Se connecter</string>
+    <string name="forgot_password">Mot de passe oublie?</string>
+    <string name="title_or">ou</string>
+    <string name="sign_in_via_facebook">Se connecter via Facebook</string>
+    <string name="title_have_you_already_have_an_account">Vous avez déjà un compte ?</string>
+    <string name="title_password">Mot de passe</string>
+
+    <string name="title_setting">Réglages</string>
+    <string name="title_terms_and_condition">Termes et conditions</string>
+    <string name="title_logout">Déconnexion</string>
+    <string name="title_my_profile">Profil</string>
+    <string name="title_have_you_not_account">Vous n’avez pas de compte ?</string>
+
+
+    <string name="title_privacy_term_prefix"> En vous inscrivant, vous acceptez les</string>
+    <string name="title_terms_conditions"> termes et conditions</string>
+    <string name="title_and">et</string>
+    <string name="title_privacy_policy">Politique de confidentialité</string>
+    <string name="title_personal_info">Informations personnelles</string>
+    <string name="title_date_of_birth">Date de naissance</string>
+    <string name="title_occupation">Profession</string>
+    <string name="title_personal_tastes">Goûts personnels</string>
+    <string name="title_not_set">Non définie</string>
+    <string name="title_change_password">Changer le mot de passe</string>
+    <string name="title_location">Ville de résidence</string>
+    <string name="title_music_types">Тут потрібний франц переклад (music types)</string>
+    <string name="title_days_open_to_go_out_screen">Jour(s) de sortie potentielle</string>
+        <string name="select_days_when_you_are_ready_to_go_out_sub_title_screen">Sélectionnez le(s) jours où vous êtes le(s) plus enclin à sortir</string>
+    <string name="title_edit">Modifier</string>
+    <string name="title_visited">Visité</string>
+    <string name="title_first_name">Prénom</string>
+    <string name="title_last_name">Nom de famille</string>
+    <string name="title_city">Ville</string>
+    <string name="title_select_your_occupation">Sélectionnez votre profession</string>
+    <string name="title_place_type_profile">Type de lieu</string>
+    <string name="title_select_your_favorite_place_type">Sélectionnez les types d\'endroits que vous aimez</string>
+    <string name="title_select_photo">Sélectionner dans bibliothèque Photo</string>
+    <string name="title_take_new_photo">Prendre une nouvelle photo</string>
+    <string name="title_delete_account">Supprimer le compte</string>
+    <string name="title_remove_account">Êtes-vous sûr de vouloir supprimer?</string>
+    <string name="title_delet">Supprimer</string>
+    <string name="title_type_place_name">Nom d\'un endroit</string>
+    <string name="occupation_details"> Détail de votre activité</string>
+    <string name="title_change_personal_data">Changer vos données</string>
+    <string name="title_company_university">Nom de votre entreprise, université, etc.</string>
+    <string name="title_help_us_improve_the_app">Nous contacter</string>
+    <string name="title_occupation_details_student">Nom de l\'établissement d\'enseignement</string>
+    <string name="title_occupation_details_employee">Le nom du lieu de travail</string>
+    <string name="FREQUENTATION_DESCRIPTION">Merci de nous indiquer le taux de fréquentation ressenti en ce moment via le curseur</string>
+    <string name="not_busy">Pas animé</string>
+    <string name="quite_busy">Relativement animé</string>
+    <string name="very_busy">Très animé</string>
+    <string name="is_the_data_correct">Corriger fréquentation</string>
+    <string name="how_busy_now">Reporter taux de fréquentation</string>
+    <string name="no_internet_connection">La connexion Internet semble interrompue.</string>
+    <string name="title_price">Prix</string>
+    <string name="place_name">Nom de l\'endroit</string>
+    <string name="complete_place_s_profile">Compléter detail de l\'endroit</string>
+    <string name="title_add">Ajouter</string>
+    <string name="title_text_short">Le texte est court</string>
+    <string name="no_places_found">Pas de résultat correspondant à votre recherche</string>
+    <string name="NO_FREQUENTATION">Taux de fréquentation en direct pas disponible pour le moment. Si vous vous trouvez en ce moment à cet endroit, merci de nous indiquer le taux de fréquentation en cliquant sur ”reporter taux de fréquentation“.</string>
+    <string name="send_update">Envoyer</string>
+    <string name="title_cant_be_empty">Ce champ ne peut pas être vide</string>
+
+    <string name="title_features_report">Feature(s)</string>
+    <string name="title_living_in">Ville de résidence</string>
+
+    <string-array name="planets_array">
+        <item>Lundis</item>
+        <item>Mardis</item>
+        <item>Mercredis</item>
+        <item>Jeudis</item>
+        <item>Vendredis</item>
+        <item>Samedis</item>
+        <item>Dimanches</item>
+    </string-array>
+    <string name="title_place_type_like">Type d\'endroits que vous aimez</string>
+    <string name="title_location_description">Veuillez indiquer votre ville de résidence</string>
+    <string name="send_screenshot">Confirmer</string>
+    <string name="title_name_description">Veuillez indiquer votre prénom</string>
+    <string name="title_famile_description">Veuillez indiquer votre nom de famille</string>
+    <string name="update_sent">Les commentaires ont été envoyés</string>
+    <string name="updating_sent">Merci pour votre avis!</string>
+    <string name="title_delete_photo">Supprimer la photo</string>
+    <string name="titlr_password_changed">Mot de passe modifié avec succès</string>
+    <string name="suggest_edits">Suggérer modification</string>
+    <string name="write">Veuillez indiquer</string>
+    <string name="title_verification">Un email de vérification contentant un lien de verification vous a été envoyé. Merci de le consulter afin de valider votre compte</string>
+    <string name="string_updating">Actualisation</string>
+
+    <string name="title_timeout">Timeout expiré</string>
+    <string name="text_timeout">Le serveur ne répond pas longtemps, vérifiez votre connexion Internet et réessayez</string>
+    <string name="title_update_sent">Votre ressenti a été envoyé</string>
+    <string name="title_thanks">Merci!</string>
+    <string name="loading_photo">Chargement de la photo...</string>
+
+
+    <string name="thanks_for_you_update">Votre ressenti a été envoyé</string>
+    <string name="thanks_update">Merci!</string>
+    <string name="title_session_expidred">Veuillez vous connecter à nouveau</string>
+
+    <string name="title_error_load_photo">Impossible de lire le fichier, essayez-en un autre ou modifiez le fournisseur d\'images</string>
+    <string name="title_server_error" >Server error</string>
+    <string name="title_try_again">Besykje it nochris</string>
+    <string name="title_permi_to_locale">Needing permission to locate</string>
+    <string name="title_confirm_location">Voulez-vous ouvrir Google Maps?</string>
+    <string name="Map">Google Map</string>
+    <string name="title_getting_location">Veuillez patienter, l\'application obtient les coordonnées, vérifiez le type de fournisseurs de coordonnées de sélection dans les paramètres pour accélérer la réception. les réglages pour accélérer la réception.</string>
+    <string name="title_getting_coordinate_header">Obtenir les coordonnées</string>
+
+</resources>

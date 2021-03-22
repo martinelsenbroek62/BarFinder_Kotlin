@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginRight="8dp"
+        android:id="@+id/iv_rating1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icn_place_rating_star_full" />
+
+    <ImageView
+        android:id="@+id/iv_rating2"
+        android:layout_marginRight="8dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icn_place_rating_star_full" />
+
+    <ImageView
+        android:id="@+id/iv_rating3"
+        android:layout_marginRight="8dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icn_place_rating_star_full" />
+
+    <ImageView
+        android:id="@+id/iv_rating4"
+        android:layout_marginRight="8dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icn_place_rating_star_empty" />
+
+    <ImageView
+        android:id="@+id/iv_rating5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icn_place_rating_star_empty" />
+
+</LinearLayout>

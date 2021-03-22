@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.screens.auth.sign_in.SignInFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.screens.auth.sign_in.SignInFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/title_sign_in"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/title_email"
+            android:textColorHint="@color/white"
+            android:theme="@style/CustomTextLabel"
+            app:hintTextAppearance="@style/TextLabel">
+
+            <android.support.design.widget.TextInputEditText
+
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:paddingStart="16dp"
+                android:textColor="@color/white"
+
+                android:textSize="13sp"
+                android:theme="@style/ThemeEditText" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="20dp"
+            android:hint="@string/title_password"
+
+            android:textColorHint="@color/white"
+            android:theme="@style/CustomTextLabel"
+
+            app:hintTextAppearance="@style/TextLabel">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/password_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:theme="@style/ThemeEditText" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:gravity="left"
+            android:text="@string/forgot_password"
+            android:textColor="@color/colorTextBlue" />
+
+
+        <TextView
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_red_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/title_sign_in"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="@string/title_or"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/btn_sign_in_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:background="@drawable/button_filter_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:textColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/ic_facebook" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/sign_in_via_facebook"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_have_you_not_account"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/title_sign_in"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="24dp"
+                android:singleLine="true"
+                android:text="@string/title_sign_up"
+                android:textColor="#3691ed"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:clickable="false"
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
+
+
+
+
+

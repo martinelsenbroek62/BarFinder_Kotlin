@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <EditText
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/white"
+
+        android:paddingLeft="16dp"
+        android:theme="@style/ThemeEditTextPlace"
+        android:id="@+id/tv_choice_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/btn_add_new_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_weight="0"
+        android:src="@drawable/ic_add_black_24dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">#F00</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="NewDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorStarsYellow</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorErrorPoPap</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="MyPositiveDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@drawable/background_white_dialog</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TextLabelReport" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">right</item>
+
+    </style>
+
+    <style name="full_screen_dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--<item name="android:windowIsFloating">false</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="ThemeEditText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textColorHint">@color/colorTextGrey</item>
+        <item name="android:textColorPrimary">@color/colorTextGrey</item>
+        <item name="colorControlActivated">@color/colorDivider</item>
+        <item name="colorControlNormal">@color/colorDivider</item>
+    </style>
+
+    <style name="ThemeEditTextSearch" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/colorTextGrey</item>
+        <item name="android:textColorPrimary">@color/colorTextGrey</item>
+        <item name="colorControlActivated">@color/colorDivider</item>
+        <item name="colorControlNormal">@color/colorDivider</item>
+    </style>
+
+    <style name="ThemeEditTextPlace" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textColorHint">@color/colorTextGrey</item>
+        <item name="android:textColorPrimary">@color/colorTextGrey</item>
+        <item name="colorControlActivated">#354677</item>
+        <item name="colorControlNormal">@color/colorDivider</item>
+    </style>
+
+    <style name="full_screen_dialog_send_feedback">
+
+
+        <item name="android:windowFrame">@null</item>
+        <!--<item name="android:windowIsFloating">false</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+
+    <style name="search_dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomTextLabel" parent="Widget.Design.TextInputLayout">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+
+        <!-- Put the two options, colorAccent and android:colorAccent. -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="FullyTranslucent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:progressBarStyle">@style/InvisibleProgress</item>
+    </style>
+
+    <style name="InvisibleProgress">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Translucent" parent="Translucent.Base" />
+
+    <style name="Translucent.Base" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:progressBarStyle">@style/InvisibleProgress</item>
+    </style>
+
+
+</resources>
